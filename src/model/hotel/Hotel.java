@@ -6,6 +6,8 @@ Time: 22:38
 File: Hotel.java */
 package model.hotel;
 
+import model.customer.Customer;
+
 public abstract class Hotel {
 
     private int rating;
@@ -15,7 +17,7 @@ public abstract class Hotel {
         return rating;
     }
 
-    public int getRate() {
+    public int getRate(Customer customer) {
         return rate;
     }
 }

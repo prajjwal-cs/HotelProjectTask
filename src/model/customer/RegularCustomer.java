@@ -11,6 +11,5 @@ import model.hotel.Hotel;
 public class RegularCustomer implements Customer {
     @Override
     public void bookHotel(Hotel hotel) {
-
     }
 }
