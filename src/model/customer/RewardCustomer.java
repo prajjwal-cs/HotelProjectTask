@@ -6,5 +6,11 @@ Time: 22:46
 File: RewardCustomer.java */
 package model.customer;
 
-public class RewardCustomer {
+import model.hotel.Hotel;
+
+public class RewardCustomer implements Customer {
+    @Override
+    public void bookHotel(Hotel hotel) {
+
+    }
 }
