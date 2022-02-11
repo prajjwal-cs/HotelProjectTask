@@ -6,5 +6,9 @@ Time: 22:44
 File: Oyo.java */
 package model.hotel;
 
-public class Oyo {
+public class Oyo extends Hotel{
+    @Override
+    public int getRating() {
+        return 4;
+    }
 }

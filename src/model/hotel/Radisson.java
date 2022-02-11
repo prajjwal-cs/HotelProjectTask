@@ -6,5 +6,9 @@ Time: 22:43
 File: Radisson.java */
 package model.hotel;
 
-public class Radisson {
+public class Radisson extends Hotel {
+    @Override
+    public int getRating() {
+        return 3;
+    }
 }

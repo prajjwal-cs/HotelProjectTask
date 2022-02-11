@@ -6,5 +6,9 @@ Time: 22:43
 File: Taj.java */
 package model.hotel;
 
-public class Taj {
+public class Taj extends Hotel {
+    @Override
+    public int getRating() {
+        return 2;
+    }
 }
