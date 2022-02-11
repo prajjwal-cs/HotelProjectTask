@@ -6,5 +6,16 @@ Time: 22:38
 File: Hotel.java */
 package model.hotel;
 
-public class Hotel {
+public abstract class Hotel {
+
+    private int rating;
+    private int rate;
+
+    public int getRating() {
+        return rating;
+    }
+
+    public int getRate() {
+        return rate;
+    }
 }
