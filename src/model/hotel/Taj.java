@@ -23,18 +23,18 @@ public class Taj extends Hotel {
         if (customer instanceof RegularCustomer) {
             if(LocalDate.now().getDayOfWeek().name().equals("SATURDAY") ||
                     LocalDate.now().getDayOfWeek().name().equals("SUNDAY")) {
-                return 12;
+                return 110;
             }
             else {
-                return 130;
+                return 120;
             }
         } else if (customer instanceof RewardCustomer) {
             if(LocalDate.now().getDayOfWeek().name().equals("SATURDAY") ||
                     LocalDate.now().getDayOfWeek().name().equals("SUNDAY")) {
-                return 80;
+                return 95;
             }
             else {
-                return 90;
+                return 105;
             }
         }
         return 0;
