@@ -16,19 +16,19 @@ import javax.swing.*;
 public class RewardCustomer implements Customer {
     @Override
     public void bookHotel(Hotel hotel) {
-        int bookingRate = 0;
+        int bookingRate2 = 0;
         if (hotel instanceof Oyo oyo) {
-            bookingRate = oyo.getRate(this);
+            bookingRate2 = oyo.getRate(this);
         }
         else if (hotel instanceof Radisson radisson) {
-            bookingRate = radisson.getRate(this);
+            bookingRate2 = radisson.getRate(this);
         }
         else if (hotel instanceof Taj taj) {
-            bookingRate = taj.getRate(this);
+            bookingRate2 = taj.getRate(this);
         }
         JOptionPane.showConfirmDialog(
                 null,
-                "The booking rate of this hotel is " + bookingRate
+                "The booking rate of this hotel is " + bookingRate2
         );
     }
 }

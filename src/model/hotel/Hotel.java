@@ -8,7 +8,7 @@ package model.hotel;
 
 import model.customer.Customer;
 
-public abstract class Hotel {
+public sealed abstract class Hotel permits Oyo, Radisson, Taj {
 
     private int rating;
     private int rate;

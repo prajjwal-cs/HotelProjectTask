@@ -12,7 +12,7 @@ import model.customer.RewardCustomer;
 
 import java.time.LocalDate;
 
-public class Oyo extends Hotel{
+public final class Oyo extends Hotel{
     @Override
     public int getRating() {
         return 4;
