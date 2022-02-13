@@ -28,7 +28,7 @@ public class RegularCustomer implements Customer {
         }
         JOptionPane.showConfirmDialog(
                 null,
-                "The booking rate of this hotel is - " + bookingRate
+                "The booking rate of this hotel is " + bookingRate
         );
     }
 }
